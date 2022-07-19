@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class ChromeTest {
+public class BusquedaInGoogle {
     public WebDriver driver;
 
     @Test
@@ -17,6 +17,9 @@ public class ChromeTest {
         System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
+
+
+
         driver.get("https://google.com");
 
         String title = driver.getTitle();

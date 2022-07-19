@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class TextoOculto3 {
+public class GetTextoOculto3 {
     public WebDriver driver;
     By LocalizarTextoOculto = By.xpath("//p[@hidden]");
 

@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class GetByXpathButton2 {
+public class ClickButton2 {
 
 
     private WebDriver driver;

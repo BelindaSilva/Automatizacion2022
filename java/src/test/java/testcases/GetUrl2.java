@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class GetUrlByXpath2 {
+public class GetUrl2 {
     public WebDriver driver;
 
     By GetUrl = By.xpath("//a[@target=\"_blank\"]");
