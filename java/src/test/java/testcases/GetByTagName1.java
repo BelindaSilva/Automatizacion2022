@@ -16,6 +16,10 @@ public class GetByTagName1 {
     @Test
     public  void GetTextoH1(){
 
+        System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver.exe");
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.get("https://www.w3schools.com/#gsc.tab=0");
 
          //Aca inicia
         driver.findElement(extractorEncabezado).getText();
